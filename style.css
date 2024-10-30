@@ -13,7 +13,34 @@ body {
 }
 .nav-link {
   font-family: "Abril Fatface", serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   size: 200px;
+  opacity: 50%;
+}
+.nav-link:hover {
+  font-family: "Abril Fatface", serif;
+  font-weight: 200;
+  font-style: normal;
+  size: 200px;
+  opacity: 100%;
+  transition: 0.5s;
+}
+#video {
+transition: 0.5s;
+opacity: 50%;
+border: 10px solid black;
+  border-radius: 10px;
+}
+#video:hover {
+  transition: 0.5s;
+  opacity: 100%;
+  scale: 110%;
+}
+.navbar-brand {
+  font-family: "Abril Fatface", serif;
+  font-weight: 700;
+  font-style: normal;
+  size: 200px;
+
 }
